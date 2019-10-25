@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/daviddykeuk
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://daviddykeuk.github.io
+  * I am daviddykeuk (https://keybase.io/daviddykeuk) on keybase.
+  * I have a public key ASBClIW5DUwa6xZufupiFxW9AkDgSqEh4YE6lpmeuLrIyAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120fd18e32f38cf1c88e358622d5e11864cc03537d4cba471797c98613bbb809f050a",
+      "host": "keybase.io",
+      "kid": "0120429485b90d4c1aeb166e7eea621715bd0240e04aa121e1813a96999eb8bac8c80a",
+      "uid": "2c0546696fc01b35ba8cade9934b9019",
+      "username": "daviddykeuk"
+    },
+    "merkle_root": {
+      "ctime": 1572016432,
+      "hash": "03f076cc78f9275c47da8246b1a9846a42de495e5806102b7794efa501c87b1f66c79091e2be36367c5c249f72743ddf1de5da639e8d71a41f3a690dd2226783",
+      "hash_meta": "d02337a90243d0c7ca0ab02f113d7effefe0d5d9f391bd2e1f8bf1ee711f18b1",
+      "seqno": 8395881
+    },
+    "service": {
+      "entropy": "vqMtbJAcgWrM00nnLEoKtPjv",
+      "hostname": "daviddykeuk.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.7.0"
+  },
+  "ctime": 1572016448,
+  "expire_in": 504576000,
+  "prev": "eb0887b3aedb4ed1b011b24f8404e44e22abb30391422fc5e2c5bddc96dc7a4b",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgQpSFuQ1MGusWbn7qYhcVvQJA4EqhIeGBOpaZnri6yMgKp3BheWxvYWTESpcCDMQg6wiHs67bTtGwEbJPhATkTiKrswORQi/F4sW93JbcekvEINyeoZeOPUufRX1df5ZJOe5R4aenGsA+oGcottEtJlUzAgHCo3NpZ8RACdZlXMfTp3zZI/pUJCIyDyBz07u3XXu2jzX8kE2Yn8XrRGGnJE4LVeDWPwkwuhlDH5XEcSAq7RHe72qePkdUBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILPcgFcPVnJlYe1Z5NQ3E4asNpEQvvTpMWQVxTkAJ4j7o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/daviddykeuk
+
+==================================================================
