@@ -41,7 +41,7 @@
             <div class="profile-container">
                 <img class="profile" src="assets/images/profile.jpg" alt="" />
                 <h1 class="name">David Dyke</h1>
-                <h3 class="tagline">Technology leader, software architect and coder</h3>
+                <h3 class="tagline">Technology leader, system architect and coder</h3>
                 <a href="https://www.codewars.com/users/daviddykeuk">
                     <img class="codewars-badge" src="https://www.codewars.com/users/daviddykeuk/badges/micro"/>
                 </a>
@@ -57,6 +57,10 @@
                     <li class="phone">
                         <i class="fa fa-phone"></i>
                         <a href="tel:+447366607319">+44 (0) 7366 607 319</a>
+                    </li>
+                    <li class="website">
+                        <i class="fa fa-rss"></i>
+                        <a href="http://www.dailyburndown.co.uk" target="_blank">dailyburndown.co.uk</a>
                     </li>
                     <li class="linkedin">
                         <i class="fa fa-linkedin"></i>
@@ -76,6 +80,11 @@
             <div class="education-container container-block">
                 <h2 class="container-block-title">Education</h2>
                 <div class="item">
+                    <h4 class="degree">Certified Kubernetes Application Developor</h4>
+                    <h5 class="meta">Linux Academy</h5>
+                    <div class="time">2018</div>
+                </div>
+                <div class="item">
                     <h4 class="degree">MSc Technology Management</h4>
                     <h5 class="meta">Open University</h5>
                     <div class="time">2011 - 2018</div>
@@ -93,8 +102,8 @@
             <div class="interests-container container-block">
                 <h2 class="container-block-title">Interests</h2>
                 <ul class="list-unstyled interests-list">
-                    <li>Psychology</li>
                     <li>Travelling</li>
+                    <li>Mountain climbing</li>
                     <li>Technology</li>
                     <li>Movies</li>
                     <li>Food</li>
@@ -111,22 +120,21 @@
                 <h2 class="section-title">
                     <i class="fa fa-user"></i>Career Profile</h2>
                 <div class="summary">
-                    <p>I am a highly motivated technology leader specialising in developing evolutionary architectures to help
-                        keep up with ever-changing business needs and technology. I aim to create development teams whose
-                        members are passionaite about the work they do and are  to create the best possible products for thier users.</p>
+                    <p>I am a highly motivated system architect specialising in developing evolutionary architectures to help
+                        keep up with ever-changing business needs and technology.</p>
 
                     <p>Architecture is fundamental when developing systems, however, the best architecture will be almost invisible
                         to the developer, allowing them the freedom to create functionality without restrictions imposed
                         on them by architectural overlords, but with the safety of knowing that their code is secure, scalable,
                         maintainable and changeable.</p>
 
-                    <p>As a technology leader, my role is just as hands-on as a developer, with the added responsibility of setting
+                    <p>As an architect, my role is just as hands-on as a developer, with the added responsibility of setting
                         a vision and embarking on the journey to get there by coaching, mentoring and empowering the teams
-                        around me. Architecture, tools and processes should never be set in stone from the start, they should evolve as the system,
-                        developers, technology, users and business evolve around them.</p>
+                        around me. Architecture should never be set in stone from the start, it should evolve as the system,
+                        developers, technology, users and business evolve around it.</p>
 
-                    <p>This is where my skills lie, in creating this evolutionary architecture coupled with modern technology and tools and empowering those around me
-                        to utilise it for the best possible outcome. Whilst also rolling up my sleeves and putting fingers to keyboard to write tests, code and CI/CD pipelines</p>
+                    <p>This is where my skills lie, in creating this evolutionary architecture and empowering those around me
+                        to utilise it for the best possible outcome.</p>
                 </div>
                 <!--//summary-->
             </section>
@@ -138,33 +146,8 @@
                     <div class="item">
                         <div class="meta">
                             <div class="upper-row">
-                                <h3 class="job-title">Technical Principal</h3>
-                                <div class="time">2019 - present</div>
-                            </div>
-                            <!--//upper-row-->
-                            <div class="company">Contino, London, UK</div>
-                        </div>
-                        <!--//meta-->
-                        <div class="details">
-                          <p>
-                            Working in the energy industry to help to move dependencies on large monolithic SAP deployments to AWS native services. Utilising cloud native technologies
-                            to bring insights and analytics of energy consumption to the customer in real-time.
-                          </p>
-                          <p>
-                            Designed and implemented agile processes and achitectures for software development to futher improve productivity, quality and developer experience.
-                          </p>
-                          <p>
-                            Lead a team of software engineers in developing a new energy product and React Native mobile application for both iOS and Android.
-                          </p>
-                        </div>
-                        <!--//details-->
-                    </div>
-                    <!--//item-->
-                    <div class="item">
-                        <div class="meta">
-                            <div class="upper-row">
                                 <h3 class="job-title">Principal Consultant</h3>
-                                <div class="time">2018 - 2019</div>
+                                <div class="time">2018 - present</div>
                             </div>
                             <!--//upper-row-->
                             <div class="company">Contino, Melbourne, Australia</div>
@@ -175,15 +158,9 @@
                                  to help them utilise the cloud in the most efficient and cost-effective way.
                             </p>
                             <p>
-                              Designed and co-built a financial crime screening system to scan millions of data points in seconds, making use of containers deployed in AWS and event-based communication.
-                            </p>
-                            <p>
                                 A major focus on the culture and sociological dynamics involved in developing cloud native systems and adapting
                                 to new DevOps pipelines and processes.
                             </p>
-                          <p>
-                            Co-designed a bank's first set of serverless and container based APIs deployed into AWS.
-                          </p>
                         </div>
                         <!--//details-->
                     </div>
@@ -227,7 +204,7 @@
                 <div class="item">
                     <div class="meta">
                         <div class="upper-row">
-                            <h3 class="job-title">Business Solutions Development Manager</h3>
+                            <h3 class="job-title">Global Business Solutions Development Manager</h3>
                             <div class="time">2015 - 2016</div>
                         </div>
                         <!--//upper-row-->
@@ -338,6 +315,10 @@
             <section class="section projects-section">
                 <h2 class="section-title">
                     <i class="fa fa-archive"></i>Open source projects</h2>
+                <!-- <div class="intro">
+                    <p>You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.</p>
+                </div> -->
+                <!--//intro-->
                 
                 <div class="item">
                     <span class="project-title">
@@ -370,89 +351,11 @@
             <section class="skills-section section">
                 <h2 class="section-title">
                     <i class="fa fa-rocket"></i>Skills</h2>
-                <div class="row">
-                  <div class="col-xs-3 skill">
-                    AWS
-                  </div>
-                  <div class="col-xs-3 skill">
-                    Kubernetes
-                  </div>
-                  <div class="col-xs-3 skill">
-                    CI/CD
-                  </div>
-                  <div class="col-xs-3 skill">
-                    React
-                  </div>
-                  <div class="col-xs-3 skill">
-                    Javascript/Node
-                  </div>
-                  <div class="col-xs-3 skill">
-                    Go
-                  </div>
-                  <div class="col-xs-3 skill">
-                    Docker
-                  </div>
-                  <div class="col-xs-3 skill">
-                    SQL / NoSql
-                  </div>
-                  <div class="col-xs-3 skill">
-                    Azure
-                  </div>
-                  <div class="col-xs-3 skill">
-                    Serverless
-                  </div>
-                  <div class="col-xs-3 skill">
-                    API
-                  </div>
-                  <div class="col-xs-3 skill">
-                    Event-based architecutre
-                  </div>
-                  <div class="col-xs-3 skill">
-                    Microservices
-                  </div>
-                  <div class="col-xs-3 skill">
-                    Requirements elicitation
-                  </div>
-                  <div class="col-xs-3 skill">
-                    Team leadership
-                  </div>
-                  <div class="col-xs-3 skill">
-                    Agile methodologies
-                  </div>
-                  <div class="col-xs-3 skill">
-                    Innovation management
-                  </div>
-                  <div class="col-xs-3 skill">
-                    Domain driven design
-                  </div>
-                  <div class="col-xs-3 skill">
-                    GCP / Firebase
-                  </div>
-                  <div class="col-xs-3 skill">
-                    Real-time data streaming
-                  </div>
-                </div>
+                <img class="cover" src="assets/images/wordcloud.png" alt="" />
 
             </section>
             <!--//skills-section-->
-            <section class="section projects-section">
-                <h2 class="section-title">
-                    <i class="fa fa-certificate"></i>Certifications</h2>
-                <div class="row">
-                  <!-- <div class="col-xs-6 col-md-3">
-                      <img alt="AWS Solutions Architect Associate" class="img-responsive" src="/assets/images/aws-sa-a.png" />
-                  </div>
-                  <div class="col-xs-6 col-md-3">
-                      <img alt="AWS Developer Associate" class="img-responsive" src="/assets/images/aws-d-a.png" />
-                  </div> -->
-                  <div class="col-xs-6 col-md-3">
-                      <img alt="CKAD" class="img-responsive" src="/assets/images/ckad.png" />
-                  </div>
-                  <!-- <div class="col-xs-6 col-md-3">
-                      <img alt="Google Mobile Web Specialise" class="img-responsive" src="/assets/images/google-ws.png" />
-                  </div> -->
-                </div>
-            </section>
+
         </div>
         <!--//main-body-->
     </div>
