@@ -64,7 +64,7 @@ p {
   width: 100%;
 }
 .sidebar-wrapper {
-  background: #42A8C0;
+  background: #127890;
   position: absolute;
   right: 0;
   width: 240px;
@@ -228,11 +228,11 @@ p {
   position: absolute;
   right: 0;
   top: 0;
-  color: #97AAC3;
+  color: #222222;
 }
 .main-wrapper .company {
   margin-bottom: 10px;
-  color: #97AAC3;
+  color: #222222;
 }
 .main-wrapper .project-title {
   font-size: 16px;
