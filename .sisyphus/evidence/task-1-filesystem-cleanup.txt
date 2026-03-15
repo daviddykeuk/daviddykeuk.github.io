@@ -1,0 +1,6 @@
+PASS: plugins dir removed
+PASS: less dir removed
+PASS: cover.jpg removed
+PASS: aws-d-a.png removed
+PASS: google-ws.png removed
+PASS: wordcloud.png removed

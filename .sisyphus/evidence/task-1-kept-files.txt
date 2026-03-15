@@ -1,0 +1,10 @@
+/home/david/daviddykeuk.github.io/assets/images/profile.jpg
+PASS
+/home/david/daviddykeuk.github.io/assets/images/aws-sa-a.png
+PASS
+/home/david/daviddykeuk.github.io/assets/images/ckad.png
+PASS
+/home/david/daviddykeuk.github.io/assets/css/style.css
+PASS
+/home/david/daviddykeuk.github.io/assets/js/main.js
+PASS
