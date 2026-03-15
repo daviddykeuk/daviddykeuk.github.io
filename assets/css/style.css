@@ -251,6 +251,19 @@ a:hover {
   margin-bottom: 0;
 }
 
+.previous-experience-list {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.previous-experience-list li {
+  font-size: var(--font-size-body);
+  line-height: 1.6;
+}
+
 /* ---- Skills ---- */
 .skills-grid {
   display: grid;
