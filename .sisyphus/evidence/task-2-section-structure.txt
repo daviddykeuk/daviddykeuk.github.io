@@ -1,0 +1,8 @@
+=== QA 1: Section Structure ===
+7
+    <section class="hero" id="hero">
+    <section class="section section-light" id="experience">
+    <section class="section section-dark" id="skills">
+    <section class="section section-light" id="education">
+    <section class="section section-dark" id="interests">
+    <footer class="footer" id="footer">

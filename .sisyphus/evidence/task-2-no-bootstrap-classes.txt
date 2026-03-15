@@ -1,0 +1,4 @@
+=== QA 4: No Bootstrap/FA Classes ===
+PASS
+PASS
+PASS

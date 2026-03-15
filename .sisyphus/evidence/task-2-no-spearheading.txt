@@ -1,0 +1,2 @@
+=== QA 6: No Spearheading ===
+PASS

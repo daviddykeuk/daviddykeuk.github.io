@@ -1,0 +1,4 @@
+=== QA 5: Contact Links in Both Hero and Footer ===
+4
+2
+4

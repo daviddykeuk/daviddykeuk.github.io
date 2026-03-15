@@ -1,0 +1,9 @@
+=== QA 2: Role Count ===
+7
+                    <h3 class="role-title">Head of Engineering, Executive Director</h3>
+                    <h3 class="role-title">Head of Engineering - Wealth</h3>
+                    <h3 class="role-title">Interim Head of CMC Invest</h3>
+                    <h3 class="role-title">Head of Technology</h3>
+                    <h3 class="role-title">Technical Principal</h3>
+                    <h3 class="role-title">Principal Consultant</h3>
+                    <h3 class="role-title">Tech Lead</h3>
