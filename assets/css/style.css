@@ -382,3 +382,35 @@ a:hover {
     transform: none;
   }
 }
+
+/* ---- Responsive: Tablet (768px+) ---- */
+@media (min-width: 768px) {
+  .role-header {
+    flex-wrap: nowrap;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+
+  .certs-grid {
+    flex-wrap: nowrap;
+  }
+
+  .hero-photo {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+/* ---- Responsive: Desktop (1024px+) ---- */
+@media (min-width: 1024px) {
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .hero-photo {
+    width: 200px;
+    height: 200px;
+  }
+}
