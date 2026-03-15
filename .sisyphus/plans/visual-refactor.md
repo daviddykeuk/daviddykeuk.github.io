@@ -187,7 +187,7 @@ Max Concurrent: 3 (Wave 2)
 
 ## TODOs
 
-- [ ] 1. Strip old dependencies and clean asset structure
+- [x] 1. Strip old dependencies and clean asset structure
 
   **What to do**:
   - Remove all Bootstrap CSS/JS files from `assets/plugins/bootstrap/`
@@ -306,7 +306,7 @@ Max Concurrent: 3 (Wave 2)
   - Files: `index.html`, deleted files/directories
   - Pre-commit: grep checks for no Bootstrap/jQuery/FA references
 
-- [ ] 2. Rewrite HTML structure — full-width semantic sections
+- [x] 2. Rewrite HTML structure — full-width semantic sections
 
   **What to do**:
   - Completely rewrite the `<body>` content of `index.html` to a full-width, single-column layout
@@ -537,7 +537,7 @@ Max Concurrent: 3 (Wave 2)
   - Files: `index.html`
   - Pre-commit: grep checks for section structure, role count, no Bootstrap classes
 
-- [ ] 3. Build new CSS from scratch — dark/light sections, fluid typography, modern layout
+- [x] 3. Build new CSS from scratch — dark/light sections, fluid typography, modern layout
 
   **What to do**:
   - **Delete all existing content** in `assets/css/style.css` and write a completely new stylesheet from scratch
@@ -810,7 +810,7 @@ Max Concurrent: 3 (Wave 2)
   - Files: `assets/css/style.css`
   - Pre-commit: grep checks for custom properties, clamp(), system font stack, no Bootstrap remnants
 
-- [ ] 4. Implement GSAP ScrollTrigger animations — fade-in reveals, parallax text, stagger
+- [x] 4. Implement GSAP ScrollTrigger animations — fade-in reveals, parallax text, stagger
 
   **What to do**:
   - Completely rewrite `assets/js/main.js` from scratch (delete all existing jQuery content)
@@ -978,7 +978,7 @@ Max Concurrent: 3 (Wave 2)
   - Files: `assets/js/main.js`
   - Pre-commit: grep for ScrollTrigger registration, prefers-reduced-motion check, no jQuery
 
-- [ ] 5. Trim content and update section text
+- [x] 5. Trim content and update section text
 
   **What to do**:
   - This task verifies and adjusts the content inside the HTML structure created by Task 2
@@ -1087,7 +1087,7 @@ Max Concurrent: 3 (Wave 2)
   - Files: `index.html` (content fixes if any)
   - Pre-commit: grep checks for role count, no old roles, no spearheading
 
-- [ ] 6. Responsive design and mobile optimisation
+- [x] 6. Responsive design and mobile optimisation
 
   **What to do**:
   - Add responsive breakpoints to `assets/css/style.css` using mobile-first approach
@@ -1228,7 +1228,7 @@ Max Concurrent: 3 (Wave 2)
   - Files: `assets/css/style.css` (responsive additions)
   - Pre-commit: Playwright screenshots at 3 viewports
 
-- [ ] 7. Rewrite README and add meta tags
+- [x] 7. Rewrite README and add meta tags
 
   **What to do**:
   - **Rewrite `README.md`** — Replace the old Orbit template README entirely with a brief project description:
@@ -1326,7 +1326,7 @@ Max Concurrent: 3 (Wave 2)
   - Files: `README.md`, `index.html` (meta tags in `<head>` only)
   - Pre-commit: Verify README rewritten and meta tags present
 
-- [ ] 8. Profile photo preparation and image optimisation
+- [x] 8. Profile photo preparation and image optimisation
 
   **What to do**:
   - **Assess current `profile.jpg`** (150×147px): This image is too small for a hero-scale display. The CSS (Task 3) will use `clamp(120px, 15vw, 180px)` for the photo — at 180px display size, the 150px source will appear slightly blurry.

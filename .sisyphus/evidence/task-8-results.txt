@@ -1,0 +1,24 @@
+=== QA CHECK: TODO Comment Verification ===
+            <!-- TODO: Replace with high-resolution photo (recommended: 360×360px or larger for Retina) -->
+✓ PASS: TODO comment present
+
+=== QA CHECK: object-fit Verification ===
+  object-fit: cover;
+✓ PASS: object-fit present
+
+=== QA CHECK: Image Paths Resolution ===
+✓ OK: assets/images/profile.jpg
+✗ MISSING: https://www.codewars.com/users/daviddykeuk/badges/micro
+✗ MISSING: /assets/images/aws-sa-a.png
+✗ MISSING: /assets/images/ckad.png
+✗ MISSING: https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js
+✗ MISSING: https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js
+✓ OK: assets/js/main.js
+
+=== QA CHECK: Image File Sizes ===
+-rw-rw-r-- 1 david david 17K Apr  7  2024 assets/images/aws-sa-a.png
+-rw-rw-r-- 1 david david 20K Apr  7  2024 assets/images/ckad.png
+-rw-rw-r-- 1 david david 28K Apr  7  2024 assets/images/profile.jpg
+
+=== QA CHECK: Image Format/Type ===
+assets/images/profile.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 168x168, segment length 16, Exif Standard: [TIFF image data, big-endian, direntries=6], baseline, precision 8, 150x147, components 3

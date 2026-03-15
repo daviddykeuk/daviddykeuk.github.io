@@ -373,11 +373,19 @@ a:hover {
   transform: translateY(30px);
 }
 
+.role,
+.skill-tag {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
 /* ---- Reduced Motion Override ---- */
 @media (prefers-reduced-motion: reduce) {
   .section-inner,
   .footer-inner,
-  .hero-content > * {
+  .hero-content > *,
+  .role,
+  .skill-tag {
     opacity: 1;
     transform: none;
   }
