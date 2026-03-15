@@ -2,6 +2,10 @@ gsap.registerPlugin(ScrollTrigger);
 
 const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+if (prefersReducedMotion) {
+  document.body.classList.add('no-motion');
+}
+
 if (!prefersReducedMotion) {
 
   gsap.utils.toArray('.section-inner, .footer-inner').forEach(function(el) {

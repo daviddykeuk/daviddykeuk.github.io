@@ -42,3 +42,23 @@
 - Skills count: ✓ Exactly 22 .skill-tag spans (lines 153–174).
 - Placeholder/lorem ipsum: ✓ None found. All content is authentic.
 - Fixes applied: None needed. File is clean.
+
+## F3 Visual QA Across Viewports (2026-03-15)
+
+### Playwright Setup
+- Chromium at `~/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome`
+- Playwright module at `~/.npm/_npx/9833c18b2d85bc59/node_modules/playwright`
+- Node at `~/.nvm/versions/node/v22.18.0/bin/node`
+- Run headless with `--no-sandbox --disable-setuid-sandbox`
+
+### QA Results
+- All 3 viewports (1440×900, 768×1024, 375×812) render correctly
+- No horizontal overflow at any viewport
+- Hero: dark bg rgb(10,10,10), "David Dyke" visible, profile photo present
+- Section alternation: profile/experience/education = white; hero/skills/projects/interests = dark
+- 7 sections all render with substantial height
+- GSAP + ScrollTrigger both loaded from CDN successfully
+- Animations: 6 .section-inner elements start opacity:0, trigger on scroll — WORKING
+- Reduced-motion: 0 elements hidden (CSS media query properly bypasses GSAP opacity:0)
+- 2 cert badges in #education, 7 contact/nav links in hero area, 3 footer links
+- mailto: click triggers no crash

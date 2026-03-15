@@ -87,6 +87,7 @@ a:hover {
   height: 160px;
   border-radius: 50%;
   object-fit: cover;
+  image-rendering: auto;
   margin: 0 auto var(--spacing-lg);
   border: 3px solid var(--color-border-dark);
 }
@@ -163,6 +164,11 @@ a:hover {
 
 .section-dark a:hover {
   color: var(--color-accent-hover);
+}
+
+.section-off-white {
+  background: var(--color-bg-off-white);
+  color: var(--color-text-dark);
 }
 
 .section-heading {
